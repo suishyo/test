@@ -4,9 +4,9 @@ class SayController < ApplicationController
   end
 
   def hi
+    @name = params[:user]
   end
 
   def user
-@name = params[:user]
   end
 end

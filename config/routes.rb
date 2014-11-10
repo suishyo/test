@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
   get 'say/hello'
 
-  get 'say/hi'
+  post  'say/hi'
 
-  post 'say/user'
+  get  'say/user'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
